@@ -1,6 +1,11 @@
 <h1>Books</h1>
 
-
+<% @books.each do |book| %>
+<!--title-->
+ <span><%= book.title %></span>
+<!--body-->
+ <span><%= book.body %></span>
+<% end %>
 
 <h1>New book</h1>
 
